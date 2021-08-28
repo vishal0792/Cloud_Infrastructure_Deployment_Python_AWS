@@ -1,4 +1,4 @@
-# Cloud_Infrastructure_Deployment_Python_AWS
+# Cloud Infrastructure Deployment Python AWS
 
 Write a simple index.html webpage.  
 Write a python script to perform the following actions.  
