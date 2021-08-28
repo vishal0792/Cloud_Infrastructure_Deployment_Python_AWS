@@ -1,0 +1,14 @@
+#!/bin/bash
+sudo su
+yum update -y
+yum install -y httpd.x86_64
+yum install -y git
+systemctl start httpd.service
+systemctl enable httpd.service
+echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+cd 
+mkdir vishal
+cd vishal
+git clone https://github.com/vishal0792/Assignment7_1.git
+yes | cp -r /vishal/Assignment7_1/index.html /var/www/html
+
